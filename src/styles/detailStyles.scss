@@ -1,0 +1,16 @@
+.detail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .mapViewBlock {
+    width: 500px;
+    margin: 10px;
+  }
+
+  .objectInfo {
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+  }
+}

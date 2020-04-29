@@ -1,0 +1,49 @@
+.searchPanel {
+  .dropdownSearch {
+    position: relative;
+    display: inline;
+
+    .dropdownSearchInput {
+      margin-right: 2px;
+      margin: auto;
+      padding: 5px;
+      min-height: 25px;
+      border-radius: 5px;
+      border: 1px solid #888;
+    }
+
+    .dropdownSearchOptions {
+      position: absolute;
+      top: 30px;
+      left: 10px;
+      border: 1px solid #888;
+      text-align: left;
+      display: block;
+      width: 250px;
+      max-height: 250px;
+      background-color: white;
+      border-radius: 3px;
+      z-index: 10000;
+      cursor: pointer;
+
+      .dropdownSearchOption {
+        border-radius: 3px;
+      }
+
+      .dropdownSearchOption:hover {
+        background-color: #ccc;
+      }
+
+      .dropdownSearchOption:first-child {
+        background-color: #ddd;
+      }
+    }
+
+    .submitButton {
+      position: relative;
+      min-height: 36px;
+      margin-left: 2px;
+      padding: 2px 15px;
+    }
+  }
+}
